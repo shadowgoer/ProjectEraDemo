@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{06A416EF-950B-983C-E753-78A22038BD89}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_1;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\GUI\DialogueController.cs" />
+     <Compile Include="Assets\GUI\RandomDialogue.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BadSpin2.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BadSpin3.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BadSpin4.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleBox1.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleBox2.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleBox3.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleBox4.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleBoxCog1.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleBoxCog2.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleBoxCog3.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleBoxCog4.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleBoxJoeyName.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleBoxPeterName.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleBoxRicoName.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleBoxTiaName.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleHelpText.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleIconAttackSelectJoey.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleIconAttackSelectPeter.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleIconAttackSelectRico.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleIconAttackSelectTia.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleIconItemSelectJoey.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleIconItemSelectPeter.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleIconItemSelectRico.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleIconItemSelectTia.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleIconSAISelectJoey.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleIconSAISelectPeter.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleIconSAISelectRico.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleIconSAISelectTia.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleIconTacticsSelectJoey.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleIconTacticsSelectPeter.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleIconTacticsSelectRico.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleIconTacticsSelectTia.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleTime.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleTimePlayer2.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleTimePlayer3.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\BattleTimePlayer4.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\JoeyCog.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\LargeCog1.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\LargeCog2.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\LargeCog3.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\LargeCog4.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\PeterCog.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\RicoCog.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\SmallCog1.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\SmallCog2.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\SmallCog3.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\SmallCog4.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\SmallCog5.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\SpinnerArrowControl.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\SpinnerControl.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\SpinnerXJoey.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\SpinnerXPeter.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\SpinnerXRico.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\SpinnerXTia.cs" />
+     <Compile Include="Assets\Scripts\BattleSystem\TiaCog.cs" />
+     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+     <Compile Include="Assets\Scripts\Depth.cs" />
+     <Compile Include="Assets\Scripts\Entities\Enemies\AI.cs" />
+     <Compile Include="Assets\Scripts\Entities\Enemies\AllEnemyStats.cs" />
+     <Compile Include="Assets\Scripts\Entities\Enemies\GeneralEnemyAI.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\FrameRate.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\JoeyHealthText.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\JoeyStats.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\PeterHealthText.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\PeterStats.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\Player2Movement.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\Player3Movement.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\Player4Movement.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\PlayerAnimation\BattleAnimations.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\PlayerAnimation\PlayerAnimations.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\PlayerAttack.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\RicoHealthText.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\RicoStats.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\TiaHealthText.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\TiaStats.cs" />
+     <Compile Include="Assets\Scripts\Entities\Player\test.cs" />
+     <Compile Include="Assets\Scripts\MakeHealthVisible.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
+     <Compile Include="Assets\Scripts\SoundManager.cs" />
+     <Compile Include="Assets\Scripts\Weird Stuff\BezierCollider2D.cs" />
+     <Compile Include="Assets\Scripts\Weird Stuff\DragObjectwithCamera.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

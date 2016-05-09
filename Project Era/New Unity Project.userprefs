@@ -1,0 +1,29 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GUI\DialogueController.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Entities\Enemies\AI.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Entities\Player\PlayerAnimation\PlayerAnimations.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Entities\Entity.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Entities\Player\PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Entities\Enemies\FollowerEnemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Depth.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\deathscreen.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\story1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\winscreen.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Entities\Player\PlayerAttack.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Entities\Enemies\BossAI.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Entities\Player\Bullet.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Menu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Entities\Player\PlayerHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Entities\goal.cs" Line="9" Column="3" />
+      <File FileName="Assets\Scripts\SecretEnding.cs" Line="1" Column="1" />
+      <File FileName="Assets\GUI\DialogueController.cs" Line="9" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
